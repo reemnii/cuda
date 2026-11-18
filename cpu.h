@@ -15,4 +15,7 @@ void cpu_resize(const unsigned char *input,
                 int src_width, int src_height,
                 int dst_width, int dst_height);
 
+void cpu_blur(const unsigned char *input,
+              unsigned char *output,
+              int width, int height);
 #endif
